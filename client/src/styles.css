@@ -1,0 +1,226 @@
+/* @font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-Regular.ttf") format("truetype");
+} */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+body {
+  background-color: #fffffe;
+}
+
+.text-bold {
+  font-weight: bold !important;
+}
+
+.preloader-blocking-display {
+  position: absolute;
+  display: block;
+  z-index: 3;
+  width: 1535px;
+  height: 707px;
+  background-color: #fffffe;
+  padding-top: 300px;
+}
+
+.preloader {
+  position: absolute;
+  display: block;
+  z-index: 1;
+  width: 1518px;
+  height: 707px;
+  background-color: #fffffe;
+  padding-top: 300px;
+}
+
+.blocking-display {
+  position: absolute;
+  display: block;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fffffe;
+}
+
+.slice-up-two {
+  position: absolute;
+  display: block;
+  z-index: 1;
+  margin-top: -90px;
+  margin-left: -125px;
+}
+
+.slice-up {
+  position: absolute;
+  display: block;
+  z-index: 1;
+  margin-top: -155px;
+  margin-left: -125px;
+}
+
+.slice-one {
+  position: absolute;
+  display: block;
+  z-index: -1;
+  margin-top: -225px;
+}
+
+.slice-two {
+  position: absolute;
+  display: block;
+  z-index: -2;
+  margin-top: -260px;
+}
+
+.slice-three {
+  position: absolute;
+  display: block;
+  z-index: -3;
+  margin-top: -30px;
+}
+
+.slice-four {
+  position: absolute;
+  display: block;
+  z-index: -4;
+  margin-top: -269px;
+}
+
+.background-shape {
+  position: absolute;
+  display: block;
+  z-index: -1;
+  width: 250px;
+  height: 350px;
+  background-color: #4e8975;
+  border-radius: 10px;
+  margin-left: 75px;
+  margin-top: -50px;
+}
+
+.background-shape-two {
+  position: absolute;
+  display: block;
+  z-index: -1;
+  width: 275px;
+  height: 450px;
+  background-color: #4e8975;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.background-shape-three {
+  position: absolute;
+  display: block;
+  z-index: -1;
+  width: 275px;
+  height: 475px;
+  background-color: #e7bc75;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: -10px;
+}
+
+.content {
+  z-index: 1;
+  margin-top: 120px;
+}
+
+.title {
+  margin-top: 140px;
+}
+
+.quote {
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.NotReadyLayout {
+  margin-top: 150px;
+}
+
+.NotReadyKandidatLayout {
+  margin-top: 130px;
+}
+
+.text-head {
+  font-size: 65px;
+}
+
+.card-body {
+  margin-top: -10px;
+}
+
+.text-dapil {
+  font-size: 12px;
+}
+
+.StatistikLayout {
+  background-color: #eae3dc;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.FooterLayout {
+  margin-top: 225px;
+}
+
+.bg-green {
+  background-color: #4e8975 !important;
+}
+
+.bg-yellow {
+  background-color: #e7bc75 !important;
+}
+
+.btn-tampil-kandidat {
+  text-align: center;
+  margin-top: 230px;
+}
+
+.form-login {
+  background-color: #4e8975;
+  padding: 50px;
+  border-radius: 10px;
+  color: white;
+}
+
+.form-login-pemilih {
+  background-color: #e7bc75;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.list-sidebar:hover {
+  background-color: #4e8975;
+  color: white;
+  cursor: pointer;
+}
+
+hr {
+  margin-bottom: 0px !important;
+}
+
+.bg-modalbox {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.page-link {
+  cursor: pointer;
+}
+
+.table-footer {
+  margin-top: -15px;
+}
+
+.nav-item {
+  cursor: pointer;
+}
